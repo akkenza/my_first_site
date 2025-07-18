@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <title>Ақнұрдың сайтыне қош келдің!</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(120deg, #f6d365, #fda085);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      justify-content: center;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px #333;
+    }
+
+    p {
+      font-size: 20px;
+      max-width: 600px;
+      line-height: 1.5;
+      margin-bottom: 30px;
+    }
+
+    button {
+      background-color: #ffffff;
+      color: #ff7e5f;
+      border: none;
+      padding: 15px 30px;
+      font-size: 18px;
+      border-radius: 30px;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      transition: transform 0.2s, background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #f6d365;
+      transform: scale(1.05);
+    }
+
+    img {
+      border-radius: 20px;
+      margin-top: 20px;
+      width: 300px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <h1>Сәлем! 👋</h1>
+  <p>Менің атым Ақнұр. Бұл менің бірінші сайтым, және мен оны ерекше әрі әдемі етіп жасауға тырыстым 💖</p>
+  <button onclick="alert('Керемет! Біз байланыстамыз 😊')">Байланысу</button>
+  <img src="https://picsum.photos/300" alt="Сайт суреті">
+</body>
+</html>
